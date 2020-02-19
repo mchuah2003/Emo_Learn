@@ -15,6 +15,7 @@
 		221D94F723FBE0E400C54272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221D94F523FBE0E400C54272 /* LaunchScreen.storyboard */; };
 		221D950223FBE0E400C54272 /* Emo_LearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D950123FBE0E400C54272 /* Emo_LearnTests.swift */; };
 		221D950D23FBE0E400C54272 /* Emo_LearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D950C23FBE0E400C54272 /* Emo_LearnUITests.swift */; };
+		221D951B23FD4F0D00C54272 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221D951A23FD4F0D00C54272 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		221D950823FBE0E400C54272 /* Emo_LearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Emo_LearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221D950C23FBE0E400C54272 /* Emo_LearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emo_LearnUITests.swift; sourceTree = "<group>"; };
 		221D950E23FBE0E400C54272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221D951A23FD4F0D00C54272 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				221D94EA23FBE0E300C54272 /* AppDelegate.swift */,
+				221D951A23FD4F0D00C54272 /* DefinitionViewController.swift */,
 				221D94EC23FBE0E300C54272 /* SceneDelegate.swift */,
 				221D94EE23FBE0E300C54272 /* ViewController.swift */,
 				221D94F023FBE0E300C54272 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				221D94EF23FBE0E300C54272 /* ViewController.swift in Sources */,
+				221D951B23FD4F0D00C54272 /* DefinitionViewController.swift in Sources */,
 				221D94EB23FBE0E300C54272 /* AppDelegate.swift in Sources */,
 				221D94ED23FBE0E300C54272 /* SceneDelegate.swift in Sources */,
 			);

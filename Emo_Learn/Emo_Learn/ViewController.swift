@@ -32,5 +32,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = emojis[indexPath.row]
         return cell
        }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let emoji = emojis[indexPath.row];        performSegue(withIdentifier: "moveSeque", sender: emoji)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        _ = segue.destination as! DefinitionViewController
+    }
 }
 
