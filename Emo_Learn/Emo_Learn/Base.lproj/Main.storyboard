@@ -36,17 +36,17 @@
                     <navigationItem key="navigationItem" id="8va-IE-X1X"/>
                     <connections>
                         <outlet property="MyTableView" destination="hP6-A4-xIg" id="TY8-Vn-RG8"/>
-                        <segue destination="N9C-qa-sbD" kind="show" identifier="moveSeque" id="IoE-GJ-Jfs"/>
+                        <segue destination="N9C-qa-sbD" kind="show" identifier="moveSegue" id="IoE-GJ-Jfs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="542" y="-19"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="B3I-V4-e6V">
             <objects>
-                <viewController id="N9C-qa-sbD" sceneMemberID="viewController">
+                <viewController id="N9C-qa-sbD" customClass="DefinitionViewController" customModule="Emo_Learn" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NtB-lC-uHj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,6 +74,10 @@
                         <viewLayoutGuide key="safeArea" id="Ks3-zO-LgD"/>
                     </view>
                     <navigationItem key="navigationItem" id="P9F-9z-je2"/>
+                    <connections>
+                        <outlet property="DefinitionLabel" destination="DUJ-PV-DIM" id="gKO-xU-Ds8"/>
+                        <outlet property="emojiLable" destination="xLa-q9-SBX" id="U9e-Jb-UWf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2cf-Gh-SIb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -33,10 +33,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
        }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let emoji = emojis[indexPath.row];        performSegue(withIdentifier: "moveSeque", sender: emoji)
+        tableView.deselectRow(at: indexPath, animated:  true)
+        let emoji = emojis[indexPath.row];
+        performSegue(withIdentifier: "moveSegue", sender: emoji)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        _ = segue.destination as! DefinitionViewController
+        let defVC = segue.destination as! DefinitionViewController
+        defVC.emoji = sender as! String
+        
     }
 }
 
